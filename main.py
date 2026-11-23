@@ -3,22 +3,21 @@
 
 The joke was chosen for the make.fun bounty "The joke about the demo":
 one line about working beside an AI coding agent, funny about something
-that crashed. A one-word change request makes the agent refactor the
-database, and the punchline turns the request itself inside out: the
-button is the only thing that still works. Winner of the builder's
-self-jury tournament (subagent, fresh context, 12 two-way judgements):
-C won all 3 of its games, both orders, margins 2-3, high confidence.
-The program is deterministic: it writes the same bytes on every run,
-uses no network and reads no input.
+that crashed. V2 replaces V1's angle: mid-demo, the agent fixes a bug
+that never existed, then breaks the demo so the fix has something to
+do. Double twist, still one line, still about a crash beside a coding
+agent. Chosen by a fresh-context self-jury (6 two-way judgements):
+it beat V1 in both orders, margin 2 and 2, decided on K2, with K2 not
+dropping. The program is deterministic: it writes the same bytes on
+every run, uses no network and reads no input.
 """
 
 import os
 import stat
 
 TEXT = (
-    "I told the agent 'just change the button colour'; "
-    "it refactored the database, and now the button is "
-    "the only thing that works."
+    "Mid-demo, my agent fixed a bug that didn't exist \u2014 "
+    "then broke the demo so the fix had something to do."
 )
 
 
